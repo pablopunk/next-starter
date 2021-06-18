@@ -1,0 +1,47 @@
+{
+  "name": "next-starter",
+  "version": "1.0.0",
+  "description": "* __Simple__: Should fit any project * __Opinionated__: Basic component tree * __Linting__: Basic prettier and eslint configs * __Powerful Style System__: TailwindCSS synced with CSS Variables * __Typescript__: With the basic tsconfig.json",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "lint": "eslint . --ext ts,tsx",
+    "lint:fix": "eslint . --ext ts,tsx --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "next": "^11.0.0",
+    "next-seo": "^4.25.1",
+    "postcss": "^8.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "*",
+    "prettier": "*",
+    "pretty-quick": "*",
+    "typescript": "^4.3.4"
+  }
+}
