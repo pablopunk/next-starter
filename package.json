@@ -1,7 +1,7 @@
 {
   "name": "next-starter",
   "version": "1.0.0",
-  "description": "* __Simple__: Should fit any project * __Opinionated__: Basic component tree * __Linting__: Basic prettier and eslint configs * __Powerful Style System__: TailwindCSS synced with CSS Variables * __Typescript__: With the basic tsconfig.json",
+  "description": "An opinionated template for NextJS",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -31,6 +31,32 @@
     "semi": false,
     "singleQuote": true,
     "tabWidth": 2
+  },
+  "eslintConfig": {
+    "root":true,
+    "env":{
+      "browser":true,
+      "es2021":true,
+      "node":true
+    },
+    "extends":[
+      "prettier"
+    ],
+    "parser":"@typescript-eslint/parser",
+    "parserOptions":{
+      "ecmaFeatures":{
+        "jsx":true
+      },
+      "ecmaVersion":12,
+      "sourceType":"module"
+    },
+    "plugins":[
+      "react",
+      "@typescript-eslint"
+    ],
+    "rules":{
+      "no-unused-vars":"error"
+    }
   },
   "devDependencies": {
     "@types/react": "^17.0.11",
