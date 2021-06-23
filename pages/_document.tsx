@@ -1,4 +1,5 @@
 import Document, { Main, NextScript, Html, Head } from 'next/document'
+import darkModeCode from 'dark-mode-code'
 
 export default class MyDocument extends Document {
   render() {
@@ -14,6 +15,7 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script dangerouslySetInnerHTML={{ __html: darkModeCode }} />
         </body>
       </Html>
     )

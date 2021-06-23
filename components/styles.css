@@ -16,6 +16,14 @@ body {
   background-color: var(--color-bg);
 }
 
+body.dark {
+  --color-bg: black;
+  --color-bgDim: #100624;
+  --color-fg: #dedede;
+  --color-accent: cyan;
+  --color-accent2: lightpink;
+}
+
 h1,
 h2,
 h3,

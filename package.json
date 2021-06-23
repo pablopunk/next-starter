@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.2.6",
+    "dark-mode-code": "^1.0.0",
     "next": "^11.0.0",
     "next-seo": "^4.25.1",
     "postcss": "^8.3.5",
@@ -33,29 +34,29 @@
     "tabWidth": 2
   },
   "eslintConfig": {
-    "root":true,
-    "env":{
-      "browser":true,
-      "es2021":true,
-      "node":true
+    "root": true,
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
     },
-    "extends":[
+    "extends": [
       "prettier"
     ],
-    "parser":"@typescript-eslint/parser",
-    "parserOptions":{
-      "ecmaFeatures":{
-        "jsx":true
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
       },
-      "ecmaVersion":12,
-      "sourceType":"module"
+      "ecmaVersion": 12,
+      "sourceType": "module"
     },
-    "plugins":[
+    "plugins": [
       "react",
       "@typescript-eslint"
     ],
-    "rules":{
-      "no-unused-vars":"error"
+    "rules": {
+      "no-unused-vars": "error"
     }
   },
   "devDependencies": {

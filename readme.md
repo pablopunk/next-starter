@@ -5,6 +5,7 @@
 - **TAILWINDCSS**: JIT mode. Synced with CSS variables. Check these files for more info:
   - `tailwind.config.js`
   - `components/styles.css`
+- **DARK MODE**: Automatic for user with dark mode enabled. Exposes `window.__toggleDarkMode()`.
 - **SEO**: Very basic SEO config with `next-seo`, taking values from `config.js`.
 - **LINTING**: Basic eslint/prettier config. Check both on `package.json`. Prettier is autorun on pre-commit with `husky`.
 

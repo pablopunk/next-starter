@@ -4,7 +4,7 @@ type Props = {}
 
 const About: FunctionComponent<Props> = () => (
   <div>
-    <h1>About page</h1>
+    <h1 className="text-3xl">About page</h1>
   </div>
 )
 
