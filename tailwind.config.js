@@ -20,6 +20,10 @@ module.exports = {
         footer: 'var(--footer-height)',
       },
     },
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      DEFAULT: 'var(--color-border)',
+    }),
   },
   variants: {
     extend: {},
