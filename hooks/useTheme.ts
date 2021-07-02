@@ -19,5 +19,16 @@ export default function useTheme(): [Theme, () => void] {
     updateState()
   }
 
+  if (typeof window !== 'undefined') {
+    const observer = new MutationObserver(function () {
+      updateState()
+    })
+
+    observer.observe(document.body, {
+      attributes: true,
+      attributeFilter: ['class'],
+    })
+  }
+
   return [theme, toggleTheme]
 }
