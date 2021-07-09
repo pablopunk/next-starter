@@ -20,7 +20,7 @@ body {
 body.dark {
   --color-bg: black;
   --color-bgDim: #100624;
-  --color-fg: #dedede;
+  --color-fg: #d1d1d1;
   --color-accent: cyan;
   --color-accent2: lightpink;
   --color-border: #343456;

@@ -5,27 +5,25 @@ import useTheme from 'hooks/useTheme'
 const LINKS = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
+  { label: 'Github', href: 'https://github.com/pablopunk/next-starter' },
 ]
 
 type Props = {}
 
 const Page: FunctionComponent<Props> = () => {
   const [theme, toggleTheme] = useTheme()
+  const linkStyles =
+    'px-2 py-1 ml-2 border rounded-md bg-bg focus:outline-none shadow-sm hover:shadow-md transition-all hover:text-accent'
 
   return (
     <nav>
       {LINKS.map((link) => (
         <Link key={link.href} href={link.href}>
-          <a className="p-2 transition-colors text-accent hover:text-accent2">
-            {link.label}
-          </a>
+          <a className={linkStyles}>{link.label}</a>
         </Link>
       ))}
-      <button
-        className="px-2 py-1 ml-2 border rounded-md bg-bg focus:outline-none"
-        onClick={toggleTheme}
-      >
-        {theme === 'dark' ? '🌙' : '☀️'}
+      <button className={linkStyles} onClick={toggleTheme}>
+        {theme === 'dark' ? '🌚' : '🌝'}
       </button>
     </nav>
   )
