@@ -22,4 +22,4 @@ Use that button to generate a template.
 ## First steps
 
 - Configure `config.js` with your site details.
-- Go to `components/styles.css` and change the theme colors
+- Go to `styles/global.css` and change the theme colors

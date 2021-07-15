@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import 'tailwindcss/tailwind.css'
-import 'components/styles.css'
+import 'styles/global.css'
 import { Page } from 'components/Layout'
 import { NextSeo } from 'next-seo'
 import { SITE_DESCRIPTION, SITE_NAME } from 'config'
