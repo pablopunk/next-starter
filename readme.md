@@ -4,7 +4,7 @@
 - **TYPESCRIPT**: With the basic `tsconfig.json`.
 - **TAILWINDCSS**: JIT mode. Synced with CSS variables. Check these files for more info:
   - `tailwind.config.js`
-  - `components/styles.css`
+  - `styles/global.css`
 - **DARK MODE**: Automatic for user with dark mode enabled. Exposes:
   - Global: `window.__toggleDarkMode()`
   - Hook: `const [theme, toggleTheme] = useTheme()`.
