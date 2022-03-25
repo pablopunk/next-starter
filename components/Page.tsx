@@ -1,10 +1,10 @@
-import Header from './Header'
 import { FunctionComponent } from 'react'
-import Footer from './Footer'
+import { Footer } from './Footer'
+import { Header } from './Header'
 
 type Props = {}
 
-const Page: FunctionComponent<Props> = ({ children }) => (
+export const Page: FunctionComponent<Props> = ({ children }) => (
   <>
     <Header />
     <main className="max-w-[1300px] p-4 mx-auto">{children}</main>
@@ -17,5 +17,3 @@ const Page: FunctionComponent<Props> = ({ children }) => (
     `}</style>
   </>
 )
-
-export default Page

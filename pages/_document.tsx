@@ -1,5 +1,5 @@
-import Document, { Main, NextScript, Html, Head } from 'next/document'
 import darkModeCode from 'dark-mode-code'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
   render() {
