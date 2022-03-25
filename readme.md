@@ -10,6 +10,7 @@
   - Hook: `const [theme, toggleTheme] = useTheme()`.
 - **SEO**: Very basic SEO config with `next-seo`, taking values from `config.js`.
 - **LINTING**: Basic eslint/prettier config. Check both on `package.json`. Prettier is autorun on pre-commit with `husky`.
+- **ALL ICONS**: You get all the icons from [`react-icons`](https://react-icons.github.io/react-icons/).
 
 ## Usage
 
