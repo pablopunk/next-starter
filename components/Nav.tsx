@@ -1,8 +1,6 @@
 import useTheme from 'hooks/useTheme'
-import Link from 'next/link'
 import { FunctionComponent } from 'react'
 import { BsSun, BsMoon, BsGithub } from 'react-icons/bs'
-import classNames from 'classnames'
 
 const LINKS = [
   { label: 'Home', href: '/' },
@@ -41,7 +39,6 @@ type Props = {}
 
 export const Nav: FunctionComponent<Props> = () => {
   const [theme, toggleTheme] = useTheme()
-  const linkStyles = ''
 
   return (
     <nav>
