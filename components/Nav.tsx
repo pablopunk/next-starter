@@ -2,11 +2,6 @@ import useTheme from 'hooks/useTheme'
 import { FunctionComponent } from 'react'
 import { BsSun, BsMoon, BsGithub } from 'react-icons/bs'
 
-const LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'Github', href: '' },
-]
-
 const LinkComponent = ({
   text,
   Icon,
