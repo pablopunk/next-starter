@@ -1,29 +1,80 @@
+/* Neon Design System*/
 body {
-  --color-bg: white;
-  --color-bgDim: rgba(0, 0, 0, 0.07);
-  --color-fg: #454545;
-  --color-accent: #2abb9b;
-  --color-accent2: #8e43e4;
-  --color-border: lightgray;
-
-  --header-height: 60px;
-  --footer-height: 60px;
-
-  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  --font-serif: 'DM Serif Display', serif;
-
-  color: var(--color-fg);
-  background-color: var(--color-bg);
+  --color-neutral-1: #f8fafc;
+  --color-neutral-2: #f1f5f9;
+  --color-neutral-3: #e2e8f0;
+  --color-neutral-4: #94a3b8;
+  --color-neutral-5: #64748b;
+  --color-neutral-6: #475569;
+  --color-neutral-7: #334155;
+  --color-neutral-8: #1e293b;
+  --color-neutral-9: #0f172a;
+  --color-neutral-10: #000000;
+  --color-primary-1: #e6fdfa;
+  --color-primary-2: #c3fbf4;
+  --color-primary-3: #94f8eb;
+  --color-primary-4: #63f4e2;
+  --color-primary-5: #34f1d9;
+  --color-primary-6: #07eed1;
+  --color-primary-7: #06cab2;
+  --color-primary-8: #05a994;
+  --color-primary-9: #048877;
+  --color-primary-10: #036b5e;
+  --color-secondary-1: #f3e6fd;
+  --color-secondary-2: #e1c2fa;
+  --color-secondary-3: #ca91f6;
+  --color-secondary-4: #b15ef2;
+  --color-secondary-5: #992eee;
+  --color-secondary-6: #8300ea;
+  --color-secondary-7: #6f00c7;
+  --color-secondary-8: #5d00a6;
+  --color-secondary-9: #4b0085;
+  --color-secondary-10: #3b0069;
 }
 
 body.dark {
-  --color-bg: #000000;
-  --color-bgDim: rgb(17, 16, 26);
-  --color-fg: #d1d1d1;
-  --color-accent: rgba(255, 232, 130, 0.911);
-  --color-accent2: rgb(221, 156, 252);
-  --color-border: #343456;
+  --color-neutral-1: #000000;
+  --color-neutral-2: #0f172a;
+  --color-neutral-3: #1e293b;
+  --color-neutral-4: #334155;
+  --color-neutral-5: #475569;
+  --color-neutral-6: #64748b;
+  --color-neutral-7: #94a3b8;
+  --color-neutral-8: #e2e8f0;
+  --color-neutral-9: #f1f5f9;
+  --color-neutral-10: #f8fafc;
+  --color-primary-1: #036b5e;
+  --color-primary-2: #048877;
+  --color-primary-3: #05a994;
+  --color-primary-4: #06cab2;
+  --color-primary-5: #07eed1;
+  --color-primary-6: #34f1d9;
+  --color-primary-7: #63f4e2;
+  --color-primary-8: #94f8eb;
+  --color-primary-9: #c3fbf4;
+  --color-primary-10: #e6fdfa;
+  --color-secondary-1: #3b0069;
+  --color-secondary-2: #4b0085;
+  --color-secondary-3: #5d00a6;
+  --color-secondary-4: #6f00c7;
+  --color-secondary-5: #8300ea;
+  --color-secondary-6: #992eee;
+  --color-secondary-7: #b15ef2;
+  --color-secondary-8: #ca91f6;
+  --color-secondary-9: #e1c2fa;
+  --color-secondary-10: #f3e6fd;
+}
+
+body {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-serif: 'DM Serif Display', serif;
+  color: var(--color-neutral-9);
+  background-color: var(--color-neutral-1);
+}
+
+body.dark {
+  background-color: var(--color-neutral-2);
 }
 
 h1,
