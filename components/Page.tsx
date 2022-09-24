@@ -13,7 +13,7 @@ export const Page: FunctionComponent<Props> = ({ children }) => {
       <nav className="absolute top-3 left-3 z-10">
         <Button onClick={toggleTheme} title={theme} LeftIcon={BsMoonStarsFill} />
       </nav>
-      <main className="relative max-w-[1300px] mx-auto md:min-h-[100vh]">{children}</main>
+      <main className="relative max-w-[1300px] mx-auto my-[100px] md:my-0 md:min-h-[100vh]">{children}</main>
     </>
   )
 }
