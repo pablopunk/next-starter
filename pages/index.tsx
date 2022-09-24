@@ -1,6 +1,6 @@
-import { MdHomeWork, MdFace, MdLibraryBooks } from 'react-icons/md'
+import { MdHomeWork, MdFace, MdLibraryBooks, MdMail } from 'react-icons/md'
 import { HiTerminal } from 'react-icons/hi'
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight, FaInstagram, FaTwitter } from 'react-icons/fa'
 import { Card } from '../components/Card'
 
 export default function Index() {
@@ -10,12 +10,26 @@ export default function Index() {
         <Card title="Work" buttonText="More" Icon={MdHomeWork}>
           I work at <b>Maze</b> as full-stack developer.
         </Card>
-        <Card title="Me" buttonText="Bio" Icon={MdFace} secondary>
-          I live and work remotely from <b>Pontevedra, Galiza</b>.
-        </Card>
         <Card title="Code" buttonText="Go" Icon={HiTerminal} secondary>
           All of my personal projects and open-source contributions can be found
           on <b>Github</b>.
+        </Card>
+        <Card title="Me" buttonText="Bio" Icon={MdFace} secondary>
+          <div className='mb-1'>
+            I live and work remotely from <b>Pontevedra, Galiza</b>.
+          </div>
+          <div className='flex gap-1 items-center font-bold'>
+            <FaTwitter />
+            <span>@pablopunk</span>
+          </div>
+          <div className='flex gap-1 items-center font-bold'>
+            <FaInstagram />
+            <span>@pablopunk</span>
+          </div>
+          <div className='flex gap-1 items-center font-bold'>
+            <MdMail />
+            <span>pablo@pablopunk.com</span>
+          </div>
         </Card>
         <Card title="Blog" buttonText="All posts" Icon={MdLibraryBooks}>
           <div className="flex flex-col gap-1">
